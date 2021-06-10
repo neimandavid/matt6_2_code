@@ -1,0 +1,6 @@
+aprilslam/apriltag_mit
+/home/rosie2/dneiman/catkin_ws/devel/.private/apriltag_mit/cmake.lock /home/rosie2/dneiman/catkin_ws/devel/./cmake.lock
+/home/rosie2/dneiman/catkin_ws/devel/.private/apriltag_mit/share/apriltag_mit/cmake/apriltag_mitConfig.cmake /home/rosie2/dneiman/catkin_ws/devel/share/apriltag_mit/cmake/apriltag_mitConfig.cmake
+/home/rosie2/dneiman/catkin_ws/devel/.private/apriltag_mit/share/apriltag_mit/cmake/apriltag_mitConfig-version.cmake /home/rosie2/dneiman/catkin_ws/devel/share/apriltag_mit/cmake/apriltag_mitConfig-version.cmake
+/home/rosie2/dneiman/catkin_ws/devel/.private/apriltag_mit/lib/libapriltag_mit.so /home/rosie2/dneiman/catkin_ws/devel/lib/libapriltag_mit.so
+/home/rosie2/dneiman/catkin_ws/devel/.private/apriltag_mit/lib/pkgconfig/apriltag_mit.pc /home/rosie2/dneiman/catkin_ws/devel/lib/pkgconfig/apriltag_mit.pc

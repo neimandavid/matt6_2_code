@@ -1,0 +1,15 @@
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:24:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #tag_noise_
+ #[01;31m[Ktag_noise_[m[K(noiseModel::Diagonal::Sigmas(
+  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:25:12:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #(
+ #          [01;31m[K([m[KVector(6) << Vector3::Constant(0.20), Vector3::Constant(0.1)))),
+            [01;31m[K^[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:26:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #small_noise_
+ #[01;31m[Ksmall_noise_[m[K(noiseModel::Diagonal::Sigmas(
+  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:27:12:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #(
+ #          [01;31m[K([m[KVector(6) << Vector3::Constant(0.10), Vector3::Constant(0.05)))) {}
+            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aprilslam.dir/all] Error 2
+make: *** [all] Error 2

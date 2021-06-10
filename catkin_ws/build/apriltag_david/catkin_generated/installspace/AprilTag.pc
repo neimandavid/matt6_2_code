@@ -1,0 +1,8 @@
+prefix=/home/rosie2/dneiman/catkin_ws/install
+
+Name: AprilTag
+Description: Description of AprilTag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

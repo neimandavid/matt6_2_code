@@ -1,0 +1,55 @@
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/visualizer/visualizer.cpp:1:0[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/aprilslam.dir/src/visualizer/visualizer.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper_node.h:11:0[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper_node.cpp:1[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper_node.cpp.o] Error 1
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/detector_node.h:15:0[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/detector/detector_node.cpp:1[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/aprilslam.dir/src/detector/detector_node.cpp.o] Error 1
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:[m[K In constructor ‘[01m[Kaprilslam::Mapper::Mapper(double, int)[m[K’:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:17:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.20), Vector3::Constant(0.1))[01;31m[K)[m[K),
+                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:19:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.10), Vector3::Constant(0.05))[01;31m[K)[m[K) {}
+                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/aprilslam.dir/all] Error 2
+make: *** [all] Error 2

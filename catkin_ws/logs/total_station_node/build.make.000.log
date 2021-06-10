@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target total_station_node[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 50%] [32mBuilding CXX object CMakeFiles/total_station_node.dir/src/total_station_node.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/total_station_node.dir/src/GeoCOM_displayInfo.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/total_station_node.dir/src/GeoCOM_commands.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/total_station_node.dir/src/CommUtil.cc.o[0m
+[35m[1mScanning dependencies of target total_station_node_generate_messages_py[0m
+[35m[1mScanning dependencies of target total_station_node_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target total_station_node_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target total_station_node_generate_messages_eus[0m
+[35m[1mScanning dependencies of target total_station_node_generate_messages_nodejs[0m
+[ 66%] Built target total_station_node_generate_messages_lisp
+[ 66%] Built target total_station_node_generate_messages_cpp
+[ 66%] Built target total_station_node_generate_messages_py
+[ 83%] [34m[1mGenerating EusLisp manifest code for total_station_node[0m
+[ 83%] Built target total_station_node_generate_messages_nodejs
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 83%] Built target total_station_node_generate_messages_eus
+[35m[1mScanning dependencies of target total_station_node_generate_messages[0m
+[ 83%] Built target total_station_node_generate_messages
+[100%] [32m[1mLinking CXX executable /home/rosie2/dneiman/catkin_ws/devel/.private/total_station_node/lib/total_station_node/total_station_node[0m
+[100%] Built target total_station_node

@@ -1,0 +1,2 @@
+aprilslam/aprilslam:aprilslam/apriltag_mit:apriltag_david:message_sync:state_feedback
+-DCATKIN_DEVEL_PREFIX=/home/rosie2/dneiman/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rosie2/dneiman/catkin_ws/install -G Unix Makefiles

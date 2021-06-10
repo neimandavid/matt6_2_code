@@ -1,0 +1,42 @@
+<launch>
+<!--Onboard IMU publisher-->
+    <!--include file="$(find xsens_mti_driver)/launch/xsens_mti_node.launch" /-->
+    
+    <!--Cameras-->
+    <include file="$(find titan6_general_cpp)/launch/cd.launch" />
+    <!--include file="$(find titan6_general_cpp)/launch/cf.launch" /-->
+    <!--include file="cf_david.launch" /-->
+
+    <!--Optitrack-->
+    <include file="$(find vrpn_client_ros)/launch/sample.launch">
+        <arg name="server" value="10.10.1.116" />
+    </include>
+    <node name="pose_publisher_mocap" pkg="puma_ogm" type="pose_publisher_mocap"  args="-g /vrpn_client_node/matt6/pose" />
+
+    <!--Total station and other message formatting-->
+    <node name="message_sync" pkg="message_sync" type="message_sync.py" />
+
+    <!-- Aruco Marker Fiducial SLAM -->
+    <!--include file="localizer_david.launch"/-->
+    <!--Or, to try using AprilTags instead of Aruco markers -->
+    <!--include file="localizer_david2.launch"/-->
+
+    <!-- RTabMap -->
+    <!--include file="rtabmap.launch"> </include-->
+
+    <!--Joint states for bagging-->
+    <node name="state_feedback_publisher" pkg="state_feedback" type="state_feedback_publisher.py" />
+    
+    <!--Record rosbags-->
+    <node pkg="rosbag" type="record" name="rosbag_recorder" args="-a -x /camera(.*)|(.*)image(.*) -o /home/rosie2/dneiman/bags/mybag.bag" />
+
+    <!--Raunaq code to run commands on the robot-->
+    <node name="hexapod_control" pkg="hebi-ros-daisy" type="hexapod_control" />
+
+
+    <!--Nate inference code (commented here, run this separately)-->
+    <!--include file="$(find puma_evaluate)/launch/initial-physical.launch">
+       <arg name="config_dir" value="~/dneiman/snakeMonster_PGM-master/data/physical/straight-short/" />
+    </include-->
+
+</launch>

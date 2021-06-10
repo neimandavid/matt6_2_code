@@ -1,0 +1,8 @@
+prefix=/home/rosie2/dneiman/daisy_workspace_matt61/devel
+
+Name: hebi-ros-daisy
+Description: Description of hebi-ros-daisy
+Version: 0.0.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime hebi_cpp_api

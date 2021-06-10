@@ -1,0 +1,178 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target _aprilslam_generate_messages_check_deps_Apriltag[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _aprilslam_generate_messages_check_deps_Apriltags[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltags
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltag
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target aprilslam_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target aprilslam_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target aprilslam_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target aprilslam_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  4%] Built target actionlib_generate_messages_nodejs
+[  4%] [34m[1mGenerating Lisp code from aprilslam/Apriltags.msg[0m
+[  8%] [34m[1mGenerating Javascript code from aprilslam/Apriltags.msg[0m
+[ 13%] [34m[1mGenerating EusLisp manifest code for aprilslam[0m
+[ 17%] [34m[1mGenerating Javascript code from aprilslam/Apriltag.msg[0m
+[ 21%] [34m[1mGenerating EusLisp code from aprilslam/Apriltag.msg[0m
+[ 26%] [34m[1mGenerating EusLisp code from aprilslam/Apriltags.msg[0m
+[ 30%] [34m[1mGenerating Lisp code from aprilslam/Apriltag.msg[0m
+[35m[1mScanning dependencies of target aprilslam_generate_messages_py[0m
+[ 34%] [34m[1mGenerating C++ code from aprilslam/Apriltags.msg[0m
+[ 39%] [34m[1mGenerating C++ code from aprilslam/Apriltag.msg[0m
+[ 43%] [34m[1mGenerating Python from MSG aprilslam/Apriltags[0m
+[ 47%] [34m[1mGenerating Python from MSG aprilslam/Apriltag[0m
+[ 47%] Built target aprilslam_generate_messages_nodejs
+[ 47%] Built target aprilslam_generate_messages_lisp
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 52%] [34m[1mGenerating Python msg __init__.py for aprilslam[0m
+[ 52%] Built target aprilslam_generate_messages_cpp
+[35m[1mScanning dependencies of target aprilslam_gencpp[0m
+[ 52%] Built target aprilslam_gencpp
+[ 52%] Built target aprilslam_generate_messages_py
+WARNING: Package name "AprilTag" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 52%] Built target aprilslam_generate_messages_eus
+[35m[1mScanning dependencies of target aprilslam_generate_messages[0m
+[35m[1mScanning dependencies of target aprilslam[0m
+[ 52%] Built target aprilslam_generate_messages
+[ 65%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/tag_map.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/visualizer/visualizer.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/utils/utils.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/detector/detector_node.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper_node.cpp.o[0m
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/visualizer/visualizer.cpp:1:0[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/aprilslam.dir/build.make:134: recipe for target 'CMakeFiles/aprilslam.dir/src/visualizer/visualizer.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/visualizer/visualizer.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper_node.h:11:0[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper_node.cpp:1[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/aprilslam.dir/build.make:182: recipe for target 'CMakeFiles/aprilslam.dir/src/mapper/mapper_node.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper_node.cpp.o] Error 1
+In file included from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/detector_node.h:15:0[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/detector/detector_node.cpp:1[m[K:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/visualizer.h:7:10:[m[K [01;31m[Kfatal error: [m[Krviz/helpers/color.h: No such file or directory
+ #include [01;31m[K<rviz/helpers/color.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/aprilslam.dir/build.make:158: recipe for target 'CMakeFiles/aprilslam.dir/src/detector/detector_node.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/detector/detector_node.cpp.o] Error 1
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:[m[K In constructor ‘[01m[Kaprilslam::Mapper::Mapper(double, int)[m[K’:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:17:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.20), Vector3::Constant(0.1))[01;31m[K)[m[K),
+                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:19:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.10), Vector3::Constant(0.05))[01;31m[K)[m[K) {}
+                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+CMakeFiles/aprilslam.dir/build.make:62: recipe for target 'CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o] Error 1
+CMakeFiles/Makefile2:869: recipe for target 'CMakeFiles/aprilslam.dir/all' failed
+make[1]: *** [CMakeFiles/aprilslam.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

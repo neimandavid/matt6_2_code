@@ -1,0 +1,69 @@
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltag
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltags
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[ 13%] Built target aprilslam_generate_messages_eus
+[ 21%] Built target aprilslam_generate_messages_nodejs
+[ 30%] Built target aprilslam_generate_messages_lisp
+[ 39%] Built target aprilslam_generate_messages_cpp
+[ 52%] Built target aprilslam_generate_messages_py
+[ 52%] Built target aprilslam_gencpp
+[ 52%] Built target aprilslam_generate_messages
+[35m[1mScanning dependencies of target aprilslam[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o[0m
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:24:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #tag_noise_
+ #[01;31m[Ktag_noise_[m[K(noiseModel::Diagonal::Sigmas(
+  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:25:12:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #(
+ #          [01;31m[K([m[KVector(6) << Vector3::Constant(0.20), Vector3::Constant(0.1)))),
+            [01;31m[K^[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:26:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #small_noise_
+ #[01;31m[Ksmall_noise_[m[K(noiseModel::Diagonal::Sigmas(
+  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:27:12:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #(
+ #          [01;31m[K([m[KVector(6) << Vector3::Constant(0.10), Vector3::Constant(0.05)))) {}
+            [01;31m[K^[m[K
+CMakeFiles/aprilslam.dir/build.make:62: recipe for target 'CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o] Error 1
+CMakeFiles/Makefile2:869: recipe for target 'CMakeFiles/aprilslam.dir/all' failed
+make[1]: *** [CMakeFiles/aprilslam.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

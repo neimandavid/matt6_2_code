@@ -1,0 +1,61 @@
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltags
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltag
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  8%] Built target aprilslam_generate_messages_nodejs
+[ 17%] Built target aprilslam_generate_messages_lisp
+[ 30%] Built target aprilslam_generate_messages_eus
+[ 39%] Built target aprilslam_generate_messages_cpp
+[ 52%] Built target aprilslam_generate_messages_py
+[ 52%] Built target aprilslam_gencpp
+[ 52%] Built target aprilslam_generate_messages
+[35m[1mScanning dependencies of target aprilslam[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library /home/rosie2/dneiman/catkin_ws/devel/.private/aprilslam/lib/libaprilslam.so[0m
+[ 82%] Built target aprilslam
+[35m[1mScanning dependencies of target detector_node[0m
+[35m[1mScanning dependencies of target mapper_node[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/detector_node.dir/src/detector/detector_main.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/mapper_node.dir/src/mapper/mapper_main.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable /home/rosie2/dneiman/catkin_ws/devel/.private/aprilslam/lib/aprilslam/detector_node[0m
+[ 95%] Built target detector_node
+[100%] [32m[1mLinking CXX executable /home/rosie2/dneiman/catkin_ws/devel/.private/aprilslam/lib/aprilslam/mapper_node[0m
+[100%] Built target mapper_node

@@ -1,0 +1,8 @@
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/share/roseus/ros/total_station_node/manifest.l
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/share/total_station_node/cmake/total_station_node-msg-paths.cmake
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/share/total_station_node/cmake/total_station_node-msg-extras.cmake
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/share/total_station_node/cmake/total_station_nodeConfig.cmake
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/share/total_station_node/cmake/total_station_nodeConfig-version.cmake
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/lib/python2.7/dist-packages/total_station_node/__init__.py
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/lib/pkgconfig/total_station_node.pc
+Symlinking /home/rosie2/dneiman/catkin_ws/devel/lib/total_station_node/total_station_node

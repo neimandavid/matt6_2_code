@@ -1,0 +1,2 @@
+hebi-ros-daisy
+-DCATKIN_DEVEL_PREFIX=/home/rosie2/dneiman/daisy_workspace_matt61/devel -DCMAKE_INSTALL_PREFIX=/home/rosie2/dneiman/daisy_workspace_matt61/install -G Unix Makefiles

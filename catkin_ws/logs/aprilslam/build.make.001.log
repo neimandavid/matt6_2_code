@@ -1,0 +1,89 @@
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltags
+[  0%] Built target _aprilslam_generate_messages_check_deps_Apriltag
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[ 13%] Built target aprilslam_generate_messages_eus
+[ 21%] Built target aprilslam_generate_messages_nodejs
+[ 21%] Built target sensor_msgs_generate_messages_nodejs
+[ 21%] Built target actionlib_generate_messages_eus
+[ 21%] Built target actionlib_generate_messages_lisp
+[ 30%] Built target aprilslam_generate_messages_lisp
+[ 30%] Built target actionlib_generate_messages_nodejs
+[ 39%] Built target aprilslam_generate_messages_cpp
+[ 52%] Built target aprilslam_generate_messages_py
+[ 52%] Built target aprilslam_gencpp
+[ 52%] Built target aprilslam_generate_messages
+[ 60%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/visualizer/visualizer.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/mapper/mapper_node.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/aprilslam.dir/src/detector/detector_node.cpp.o[0m
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:[m[K In constructor ‘[01m[Kaprilslam::Mapper::Mapper(double, int)[m[K’:
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:17:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.20), Vector3::Constant(0.1))[01;31m[K)[m[K),
+                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+[01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:19:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::noiseModel::Diagonal::Sigmas(Eigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >&)[m[K’
+           (Vector(6) << Vector3::Constant(0.10), Vector3::Constant(0.05))[01;31m[K)[m[K) {}
+                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/gtsam/linear/JacobianFactor.h:22:0[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/usr/local/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/nonlinear/ISAM2.h:23[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/include/aprilslam/mapper.h:6[m[K,
+                 from [01m[K/home/rosie2/dneiman/catkin_ws/src/aprilslam/aprilslam/src/mapper/mapper.cpp:1[m[K:
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[Kcandidate: static gtsam::noiseModel::Diagonal::shared_ptr gtsam::noiseModel::Diagonal::Sigmas(const Vector&, bool)
+       static shared_ptr [01;36m[KSigmas[m[K(const Vector& sigmas, bool smart = true);
+                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/gtsam/linear/NoiseModel.h:309:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::CommaInitializer<Eigen::Matrix<double, -1, 1> >[m[K’ to ‘[01m[Kconst Vector& {aka const Eigen::Matrix<double, -1, 1>&}[m[K’
+CMakeFiles/aprilslam.dir/build.make:62: recipe for target 'CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o' failed
+make[2]: *** [CMakeFiles/aprilslam.dir/src/mapper/mapper.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:869: recipe for target 'CMakeFiles/aprilslam.dir/all' failed
+make[1]: *** [CMakeFiles/aprilslam.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Ofast  -rdynamic CMakeFiles/apriltags_mit.dir/src/test/test_apriltag_mit.cpp.o  -o /home/rosie2/dneiman/catkin_ws/devel/lib/apriltag_mit/apriltags_mit 
